@@ -9,7 +9,6 @@ MAINTAINER Opstree Solutions
 USER root
 
 RUN apk update && \
-
     apk add openjdk17
 
 COPY --from=builder /java/target/salary-0.3.0-RELEASE.jar /app/salary.jar
