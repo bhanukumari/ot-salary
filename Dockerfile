@@ -8,8 +8,6 @@ FROM alpine:latest
 MAINTAINER Opstree Solutions
 USER root
 
-
-
 RUN apk update && \
 
 
