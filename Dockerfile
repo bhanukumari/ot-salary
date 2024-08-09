@@ -14,3 +14,6 @@ RUN apk update && \
 COPY --from=builder /java/target/salary-0.3.0-RELEASE.jar /app/salary.jar
 EXPOSE 8080
 ENTRYPOINT ["/usr/bin/java", "-jar", "/app/salary.jar"]
+
+
+
