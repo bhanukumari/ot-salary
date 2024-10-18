@@ -5,8 +5,6 @@ COPY pom.xml /java/
 COPY src /java/src/
 RUN mvn clean package
 
-
-
 FROM alpine:latest
 MAINTAINER Opstree Solutions
 USER root
