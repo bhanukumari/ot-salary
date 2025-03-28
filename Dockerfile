@@ -16,4 +16,3 @@ EXPOSE 8080
 ENTRYPOINT ["/usr/bin/java", "-jar", "/app/salary.jar"]
 
 
-
